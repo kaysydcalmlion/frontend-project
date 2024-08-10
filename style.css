@@ -9,7 +9,8 @@ html, body{
     width:23%;
     padding: 40px 35px 30px 20px;
     border-radius: 10px;
-    height: 70vh;
+    box-sizing: border-box;
+    height: 90vh;
 }
 .image img{
     border-radius: 50%;
