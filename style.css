@@ -3,14 +3,22 @@ html, body{
     margin: 0;
     padding: 0;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:#141414 ;
+}
 .container{
     background-color:#1f1f1f;
-    margin:6% auto;
-    width:23%;
-    padding: 40px 35px 30px 20px;
+    margin:10% auto 10% auto;
+    width:auto;
+    padding: 40px 35px 10px 20px;
     border-radius: 10px;
     box-sizing: border-box;
-    height: 90vh;
+    height: auto;
 }
 .image img{
     border-radius: 50%;
@@ -30,12 +38,14 @@ html, body{
     color:#c0e74d ;
     font-size: small;
     margin-top: -10px;
+    text-align: center;
 }
 p{
     text-align: center;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
+    padding:0 0 0 20px;
 }
 .inputs, button {
     width:100%;
@@ -60,11 +70,15 @@ button{
 /* for tablet */
 
 @media screen and (max-width:870px) {
+    .wrapper{
+        width:70%;
+        margin: 20px auto;
+    }
     .container{
-        width:35%;
+        width:auto;
         margin: 40px auto;
         padding: auto;
-        height: 85vh auto;
+        height: auto;
     }
     p{
         font-size: auto;
@@ -83,10 +97,15 @@ button{
 /*  for mobile */
 
 @media  screen and (max-width:500px) {
+    .wrapper{
+        width: 70%;
+        margin: 20px auto;
+    }
     .container{
-        width: 55%;
+        width: auto;
         margin: 40px auto;
-        padding-bottom:20px ;
+        padding:auto;
+        height: auto;
     }
     img{
         width:28%;
