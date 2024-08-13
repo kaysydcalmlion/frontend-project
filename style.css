@@ -96,9 +96,9 @@ button{
 
 /*  for mobile */
 
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:480px) {
     .wrapper{
-        width: 70%;
+        width: 60%;
         margin: 20px auto;
     }
     .container{
@@ -112,9 +112,10 @@ button{
     }
     .content p{
         font-size: 12px;
+        padding-right: 20px;
     }
     p{
-        font-size: auto;
+        font-size: small;
     }
     .input{
         font-weight: 2px;
